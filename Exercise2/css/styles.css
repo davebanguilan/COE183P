@@ -227,9 +227,15 @@ a {
       text-align: center;
   }
 
+  .container {
+    width: 100%;
+    padding: none;
+  }
+
+
   .content-info {
-      padding-left: 50px;
       border-left: none;
+      padding-left: 0px;
       padding-top: 30px;
       border-top: 3px solid black;
   }
