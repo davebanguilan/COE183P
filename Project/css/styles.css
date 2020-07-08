@@ -119,7 +119,7 @@ h4 {
         padding-top: 20px;
     }
 
-   .service-right {
+   .service-right, .loc-add {
        text-align: center;
    }
 
@@ -135,7 +135,7 @@ h4 {
         text-align: center;
         padding-top: 20px;
     }
-    .service-left {
+    .service-left, .loc-add {
         text-align: center;
     }
 
