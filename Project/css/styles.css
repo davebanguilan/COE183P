@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.navbar-links {
+    margin-left: auto;
+
+}
+
+.navbar-links li{
+    margin: 0px 25px;
+}
+
+.main-head {
+    background-image: url("/img/Jumbotron-1280.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding: 200px;
+}
+
+.main-head img {
+    height: 100px;
+    width: 100px;
+}
+
+/* FONT STYLES */
+.navbar-brand span{
+    font-size: 1em;
+    color: black;
+    font-family: 'Oldenburg', cursive;
+    vertical-align: -webkit-baseline-middle;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 5vw;
+    font-family: 'Oldenburg', cursive;
+    color: black;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-family: 'Coda', cursive;
+    color: black;
+}
+
+.nav-item a, p {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h4 {
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* MAIN CONTENT */
+.body-content {
+    padding: 30px;
+}
+
+.s-title-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-content {
+    margin-bottom: 30px;
+}
+
+/* .info-content {
+} */
+
+/* SERVICES */
+.service-div-img {
+    padding: 0px;
+}
+
+.img-services {
+    max-width: 100%;
+    height: auto;
+}
+
+/* LOCATIONS */
+.loc-content {
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+
+/* EXTRA LARGE DEVICES */
+@media (min-width: 1200px) {
+
+}
+
+/* LARGE DEVICES */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* MEDIUM DEVICES */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-head {
+        padding: 100px;
+    }
+
+    .navbar-links li{
+        margin: 0px 15px;
+    }
+
+    .info-content {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+   .service-right {
+       text-align: center;
+   }
+
+}
+
+/* SMALL DEVICES */
+@media (max-width: 767px) {
+    .main-head {
+        padding: 100px;
+    }
+
+    .info-content {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .service-left {
+        text-align: center;
+    }
+
+    .service-right {
+        text-align: center;
+    }
+}
