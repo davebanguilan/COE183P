@@ -173,7 +173,7 @@
                     </div>
                 </div>
 
-                <div class="row loc-content">
+                <div class="row loc-content loc-content-last">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-12 loc-add">
                         <h3>Taguig City</h3>
                         <h4>Lower Ground Floor, Building C3, Bonifacio High Street Central, 30th Street, Taguig City</h4>
@@ -186,12 +186,86 @@
             </div>
 
 
-            <div id="BookNow" class="container body-content text-center">
-                <h2>BOOKING SYSTEM COMING SOON!</h2>
+            <div id="BookNow" class="container body-content">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 title-content text-center">
+                        <h2 class="">BOOK SCHEDULE</h2>
+                        <h4>Book your schedule now! You can choose your desired barbershop location from the 4 different branches above.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 book-content">
+                        <form class="row book-form" action="">
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                                <label for="input-FName">First Name</label>
+                                <input type="text" class="form-control" id="input-FName" required>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
+                                <label for="input-LName">Last Name</label>
+                                <input type="text" class="form-control" id="input-LName" required>
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 form-group">
+                                <label for="input-email">Email</label>
+                                <input type="email" class="form-control" id="input-email" required>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 form-group">
+                                <label for="input-pNumber">Phone Number</label>
+                                <input type="tel" class="form-control" id="input-pNumber" required>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group">
+                                <label for="input-loc">Location</label>
+                                <select id="input-loc" class="custom-select" required>
+                                    <option selected>Pick Location</option>
+                                    <option value="1">Quezon City</option>
+                                    <option value="2">Manila</option>
+                                    <option value="3">Makati City</option>
+                                    <option value="2">Taguig City</option>
+                                  </select>
+                            </div>
+
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-12 form-group" >
+                                <label for="input-date">Date</label>
+                                <input type="date" class="form-control" id="input-date" required>
+                            </div>
+
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-12 form-group">
+                                <label for="input-time">Time</label>
+                                <input type="time" class="form-control" id="input-time" required>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group text-right">
+                                <button class="btn btn-primary " type="submit">Book Schedule</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <footer>
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer-logo">
+                        <img src="img/Brand-Logo.png" class="" alt="Barbershop" loading="lazy">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer-tag">
+                        <span>Site Created by <a class="creator" href="https://www.facebook.com/DaveIsStupid/">Dave Banguilan</a></span>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer-icons">
+                        <a href="https://www.facebook.com"><img src="img/icon-fb.svg" alt="Facebook"></a>
+                        <a href="https://www.Twitter.com"><img src="img/icon-twitter.svg" alt="Twitter"></a>
+                        <a href="https://www.Instagram.com"><img src="img/icon-insta.svg" alt="Instagram"></a>
+                    </div>
+
+                    
+                </div>
+            </div>
 
         </footer>
     </body>

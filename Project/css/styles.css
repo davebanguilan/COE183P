@@ -47,7 +47,7 @@ h2, h3 {
     color: black;
 }
 
-.nav-item a, p {
+.nav-item a, p, footer span {
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
@@ -60,7 +60,16 @@ h4 {
     font-size: 1em;
 }
 
+/* BG COLORS */
+#AboutUs, #Locations {
+    background-color: #f3f3f3;
+}
+
 /* MAIN CONTENT */
+#main-content {
+    margin-bottom: 100px;
+}
+
 .body-content {
     padding: 30px;
 }
@@ -94,6 +103,61 @@ h4 {
     border-bottom: 3px solid black;
 }
 
+.loc-content-last {
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+
+/* BOOKING FORM */
+.book-form {
+    background-color: ghostwhite;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0px 200px;
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-group button{
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+    height: 250px;
+}
+
+footer img {
+    height: 125px;
+    width: 125px;
+    margin-top: 20px;
+}
+
+footer span, footer a {
+    color: black;
+}
+
+.footer-tag {
+    margin-top: 15px;
+}
+
+.creator:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-icons img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    margin: 15px;
+}
+
 /* EXTRA LARGE DEVICES */
 @media (min-width: 1200px) {
 
@@ -123,6 +187,16 @@ h4 {
        text-align: center;
    }
 
+   .service-div-img {
+        margin-bottom: 15px;
+    }   
+
+   .book-form {
+        border-radius: 20px;
+        padding: 10px;
+        margin: 0px;
+    }
+
 }
 
 /* SMALL DEVICES */
@@ -137,6 +211,16 @@ h4 {
     }
     .service-left, .loc-add, .service-right  {
         text-align: center;
+    }
+
+    .service-div-img {
+        margin-bottom: 15px;
+    }
+
+    .book-form {
+        border-radius: 20px;
+        padding: 5px;
+        margin: 0px;
     }
 
 }
