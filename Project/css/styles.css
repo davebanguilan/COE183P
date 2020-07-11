@@ -26,6 +26,10 @@ html {
     width: 100px;
 }
 
+.nav-link.active {
+    color: white !important;
+  }
+
 /* FONT STYLES */
 .navbar-brand span{
     font-size: 1em;
@@ -157,6 +161,22 @@ footer span, footer a {
     filter: invert(100%);
     margin: 15px;
 }
+
+
+/* JS HIDE NAV WHEN SCROLL */
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+     transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
 
 /* EXTRA LARGE DEVICES */
 @media (min-width: 1200px) {
