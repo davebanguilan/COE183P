@@ -1,0 +1,78 @@
+/*LOGIN CSS*/
+
+.card-wrapper{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.logo-card img{
+    border-radius: 20px;
+    width: 100px;
+    border: 1px solid gray  ;
+}
+
+.label-card {
+    margin-top: 20px;
+    font-size: large;
+}
+
+/*ADMIN PAGE CSS*/
+
+.navbar-links {
+    margin-left: auto;
+}
+
+.navbar-links li {
+    margin: 0px 25px;
+}
+
+.nav-link.active {
+    color: black !important;
+}
+
+/* FONT STYLES */
+.navbar-brand span {
+    font-size: 1em;
+    color: black;
+    font-family: 'Oldenburg', cursive;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.nav-item a, p, footer span {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/* FOOTER */
+footer {
+    height: 250px;
+}
+
+footer img {
+    height: 125px;
+    width: 125px;
+    margin-top: 20px;
+}
+
+footer span, footer a {
+    color: black;
+}
+
+.footer-tag {
+    margin-top: 15px;
+}
+
+.creator:hover {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00ff0d
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
